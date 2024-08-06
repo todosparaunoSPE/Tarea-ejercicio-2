@@ -201,3 +201,5 @@ def find_best_transformation(data):
 if st.button('Mostrar Mejor Transformación'):
     best_transformation, best_p_value = find_best_transformation(df['Tasa de Incremento'])
     st.write(f'La mejor transformación es: {best_transformation} con un p-valor de {best_p_value:.4f}')
+
+st.sidebar.write("© 2024 Creado por: Javier Horacio Pérez Ricárdez")
